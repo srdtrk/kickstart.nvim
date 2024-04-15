@@ -5,10 +5,11 @@ return {
     config = function()
       require('catppuccin').setup {
         flavour = 'mocha',
+        term_colors = true,
         color_overrides = {
           mocha = {
             base = '#000000',
-            mantle = '#1E1E1E',
+            mantle = '#0f0f0f',
             crust = '#000000',
           },
         },
