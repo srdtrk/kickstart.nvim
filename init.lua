@@ -602,6 +602,13 @@ require('lazy').setup({
         },
       }
 
+      -- Add additional filetypes to the LSP
+      vim.filetype.add {
+        extension = {
+          mdx = 'markdown',
+        },
+      }
+
       -- Ensure the servers and tools above are installed
       --  To check the current status of installed tools and/or manually install
       --  other tools, you can run
