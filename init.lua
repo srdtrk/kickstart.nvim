@@ -928,8 +928,8 @@ require('lazy').setup({
       incremental_selection = {
         enable = true,
         keymaps = {
-          init_selection = '<S-Space>',
-          node_incremental = '<S-Space>',
+          init_selection = '<M-Space>',
+          node_incremental = '<M-Space>',
           scope_incremental = false,
           node_decremental = '<bs>',
         },
