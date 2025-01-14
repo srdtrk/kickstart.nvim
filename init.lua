@@ -933,8 +933,8 @@ require('lazy').setup({
       incremental_selection = {
         enable = true,
         keymaps = {
-          init_selection = '<TAB>',
-          node_incremental = '<TAB>',
+          init_selection = '<C-@>',
+          node_incremental = '<C-@>',
           scope_incremental = false,
           node_decremental = '<S-TAB>',
         },
