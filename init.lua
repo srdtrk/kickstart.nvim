@@ -936,7 +936,7 @@ require('lazy').setup({
           init_selection = '<C-Space>',
           node_incremental = '<C-Space>',
           scope_incremental = false,
-          node_decremental = '<S-C-Space>',
+          node_decremental = false,
         },
       },
     },
