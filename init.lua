@@ -678,7 +678,8 @@ require('lazy').setup({
           settings = {
             ['rust-analyzer'] = {
               check = {
-                command = 'cargo clippy',
+                command = 'clippy',
+                overrideCommand = { 'cargo', 'clippy', '--message-format=json' },
               },
             },
           },
